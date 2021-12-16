@@ -4,6 +4,11 @@ import 'package:flutter/material.dart';
 
 void main() {
   runApp(MaterialApp(
+      theme: ThemeData(
+              appBarTheme: AppBarTheme(
+                color: const Color(0xFF43186C),
+                )
+            ),
       home: Scaffold(
           appBar: AppBar(
             title: Text('PurpleDog'),
